@@ -1,0 +1,17 @@
+{
+    "name": "pvhtc",
+    "version": "1.0.0",
+    "description": "A minimal project for testing TH website",
+    "dependencies": {
+        "typescript": "4.0.5"
+    },
+    "scripts": {
+        "build": "tsc",
+        "main": "node ./dist/hello.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/canimus/pvhtc.git"
+    },
+    "license": "GPL-3.0-only"
+}
