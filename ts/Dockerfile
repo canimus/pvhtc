@@ -12,7 +12,8 @@ COPY src/ ./src/
 
 RUN npm install
 RUN npm run build
-
-ADD dist/ dist/
+RUN cat dist/hello.js
+RUN rm -rf src
+RUN ls -la
 
 CMD ["npm", "run", "main"]
