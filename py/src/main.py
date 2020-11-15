@@ -141,15 +141,16 @@ if __name__ == "__main__":
         WebDriverWait(driver2, timeout=10, poll_frequency=2).until(EC.title_contains('Mijn account'))
         driver2.get_screenshot_as_file(f'/scripts/tommy_9.png')
     
-    
+    # TODO: Address the wait with Expected Condition. Left on purpose    
     time.sleep(EMAIL_WAIT_THRESHOLD)
 
-    #FIXME: Target the Right Parent
-    #WebDriverWait(driver, timeout=EMAIL_WAIT_THRESHOLD, poll_frequency=5).until(EC.text_to_be_present_in_element((By.XPATH, "//*[@id='email-table']/div[1]/div[1]"), 'store@mailing.tommy.com'))
     print(chalk.yellow("New Mail!"))
 
+    # TODO: Actions.movo_to element but this also works
     email_body = driver.find_element_by_tag_name('body')
-    email_body.get_screenshot_as_png(f'/scripts/tommy_10.png')
+    email_body.send_keys(Keys.PAGE_DOWN)
+    email_body.send_keys(Keys.PAGE_DOWN)
     
+    driver.get_screenshot_as_file(f'/scripts/tommy_10.png')
     print(chalk.green("OK"))
     driver.quit()

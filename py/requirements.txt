@@ -5,3 +5,4 @@ numpy
 faker
 fake-useragent
 pychalk
+mkdocs-material
