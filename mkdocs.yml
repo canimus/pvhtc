@@ -1,0 +1,27 @@
+site_name: PVH Technical Challenge
+nav:
+    - Home: index.md
+    - Setup: setup.md
+    - Run: run.md
+    - Results: results.md
+theme:
+  features:
+    - navigation.expand
+  name: material
+  palette:
+    primary: black
+  icon:
+    logo: material/chair-school
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - codehilite
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true

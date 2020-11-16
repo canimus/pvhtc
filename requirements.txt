@@ -1,0 +1,9 @@
+selenium==3.141.0
+pytesseract==0.3.6
+Pillow==8.0.1
+numpy==1.19.4
+Faker==4.14.2
+fake-useragent==0.1.11
+pychalk==2.0.1
+mkdocs-material==6.1.5
+behave==1.2.6

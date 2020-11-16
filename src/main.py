@@ -64,7 +64,7 @@ if __name__ == "__main__":
         sys.exit()
 
     # Induced garbage caracter in domain by image
-    if not domain[0].isalnum():
+    if ((not domain[0].isalnum()) or (domain[0].isupper())):
         domain = domain[1:]
 
 

@@ -1,8 +1,0 @@
-selenium
-pytesseract
-pillow
-numpy
-faker
-fake-useragent
-pychalk
-mkdocs-material
