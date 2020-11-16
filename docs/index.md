@@ -1,7 +1,7 @@
 # Home
 
-Hello 👋, thanks for taking the time to review this technical challenge.
-This documentation micro-site, encloses the brief technical elements used to complete the technical challenge.
+Hello 👋, thank you for taking the time to review this technical challenge.
+This documentation micro-site, encloses the brief description of the technical elements used to complete the technical challenge.
 
 
 ## Tasks
@@ -28,6 +28,12 @@ This documentation micro-site, encloses the brief technical elements used to com
 - [ ] Verify errors during registration process
 - [ ] New address
 
-## Comments
+## Assumptions
 
-I put focus in creating the main scenario for account creation using external valid emails, and based on the conversation about the current challenges of the team regarding the validation of styles, or the use of `machine learning` in different areas of the test automation scope.
+I decided to focus my submission in the main test scenario for account creation.
+I assume that the idea of using an external email system, and the concept of E2E validation was the priority. 
+
+## Contribution
+Base on our conversation about the current challenges of the team regarding the validation of styles, or the use of `machine learning` in different areas of the test automation scope, I incorporated __2 features__ one that makes use of a simple computation for image comparisson, and the other one that uses OCR for retrieving email addresses from an image.
+
+Overall, I enjoyed the challenge and I hope that the implementation meets your assessment criteria.
